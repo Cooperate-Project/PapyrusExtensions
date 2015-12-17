@@ -1,0 +1,16 @@
+/*Use this Theme best with the Dark Eclipse Theme.  
+ *You can find it at Window->Preferences->General->Appearance 
+ * */
+
+
+*{
+	
+	fillColor: black;
+	fontColor: yellow;
+	bold: true;
+	gradient : none;
+	transparancy: 0;
+	lineColor: yellow;
+	lineWidth: 2
+	
+}

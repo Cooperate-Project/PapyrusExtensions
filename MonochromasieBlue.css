@@ -1,0 +1,12 @@
+/*This CSS File is used for People with Monochromasie(Blue) */
+
+*{
+	
+	fillColor: #F5F5F5;
+	fontColor: black;
+	bold: true;
+	gradient : #124EAF white vertical;
+	transparancy: 0;
+	lineColor: black;
+	
+}

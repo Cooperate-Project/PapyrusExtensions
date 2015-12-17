@@ -1,0 +1,12 @@
+/*This CSS File is used for People with Achromasie */
+
+*{
+	
+	fillColor: #EBEBEB;
+	fontColor: black;
+	bold: true;
+	gradient : none;
+	transparancy: 0;
+	lineColor: black;
+	
+}
