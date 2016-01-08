@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.papyrus.infra.core.modelListener">
+      <listener
+            name="de.cooperateproject.papyrusextensions.layoutcustomizer.listener1"
+            realization="de.cooperateproject.papyrusextensions.layoutcustomizer.PapyrusListener1">
+      </listener>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="de.cooperateproject.papyrusextensions.layoutcustomizer.handler1">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu?after=filtersMenu">
+         <menu
+               id="de.cooperateproject.papyrusextensions.layoutcustomizer.SelectMenu"
+               label="Select">
+            <command
+                  commandId="de.cooperateproject.papyrusextensions.layoutcustomizer.SelectElement"
+                  label="SelectInModelExplorer"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.papyrus.views.modelexplorer.modelexplorer.popup?after=diagramedit">
+         <menu
+               label="Select">
+            <command
+                  commandId="de.cooperateproject.papyrusextensions.layoutcustomizer.command3"
+                  label="SelectInDiagram"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.views.modelexplorer.actionHandler">
+   </extension>
+
+</plugin>
