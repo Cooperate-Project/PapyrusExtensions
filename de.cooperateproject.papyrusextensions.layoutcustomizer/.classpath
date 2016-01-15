@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/MoritzKiehl/Eclipse Modeling/eclipse-modeling-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.ui.ide_3.11.0.v20150825-2158.jar"/>
+	<classpathentry kind="lib" path="C:/MoritzKiehl/Eclipse Modeling/eclipse-modeling-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.ui.views.properties.tabbed_3.6.100.v20150423-0822.jar"/>
+	<classpathentry kind="lib" path="C:/MoritzKiehl/Eclipse Modeling/eclipse-modeling-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.papyrus.infra.widgets_1.1.2.201509161440.jar"/>
+	<classpathentry kind="lib" path="C:/MoritzKiehl/Eclipse Modeling/eclipse-modeling-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.ui.navigator_3.6.0.v20150422-0725.jar"/>
+	<classpathentry kind="lib" path="C:/MoritzKiehl/Eclipse Modeling/eclipse-modeling-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.emf.edit_2.11.1.v20150806-0404.jar"/>
+	<classpathentry kind="lib" path="C:/MoritzKiehl/Eclipse/eclipse/plugins/org.eclipse.emf.ecore_2.11.1.v20150805-0538.jar"/>
+	<classpathentry kind="lib" path="C:/MoritzKiehl/Eclipse/eclipse/plugins/org.eclipse.emf.common_2.11.0.v20150805-0538.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
